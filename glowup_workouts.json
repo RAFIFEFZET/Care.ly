@@ -1,0 +1,111 @@
+[
+  {
+    "id": "workout-underweight-001",
+    "bmi_category": "Underweight",
+    "bmi_range": "< 18.5",
+    "plan": [
+      {
+        "exercise": "Strength Training - Compound Exercises",
+        "duration": "3x/minggu, 45 menit per sesi"
+      },
+      {
+        "exercise": "Push-ups",
+        "duration": "3 set x 10-15 reps"
+      },
+      {
+        "exercise": "Squats with Weight",
+        "duration": "3 set x 12-15 reps"
+      },
+      {
+        "exercise": "Pull-ups or Assisted Pull-ups",
+        "duration": "3 set x 8-10 reps"
+      },
+      {
+        "exercise": "Protein Shake Post-Workout",
+        "duration": "Setiap selesai latihan"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": "workout-normal-001",
+    "bmi_category": "Normal",
+    "bmi_range": "18.5 - 24.9",
+    "plan": [
+      {
+        "exercise": "Cardio - Jogging/Cycling",
+        "duration": "30 menit, 3-4x/minggu"
+      },
+      {
+        "exercise": "Strength Training",
+        "duration": "2-3x/minggu, 40 menit"
+      },
+      {
+        "exercise": "Yoga atau Stretching",
+        "duration": "2x/minggu, 30 menit"
+      },
+      {
+        "exercise": "Plank",
+        "duration": "3 set x 30-60 detik"
+      },
+      {
+        "exercise": "Push-ups",
+        "duration": "3 set x 15-20 reps"
+      },
+      {
+        "exercise": "Lunges",
+        "duration": "3 set x 12 reps per kaki"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": "workout-overweight-001",
+    "bmi_category": "Overweight",
+    "bmi_range": "25 - 29.9",
+    "plan": [
+      {
+        "exercise": "Cardio - Brisk Walking/Cycling",
+        "duration": "45-60 menit, 5x/minggu"
+      },
+      {
+        "exercise": "HIIT Training",
+        "duration": "20-30 menit, 2-3x/minggu"
+      },
+      {
+        "exercise": "Strength Training Moderate",
+        "duration": "2x/minggu, 30 menit"
+      },
+      {
+        "exercise": "Jumping Jacks",
+        "duration": "3 set x 20 reps"
+      },
+      {
+        "exercise": "Mountain Climbers",
+        "duration": "3 set x 15 reps"
+      },
+      {
+        "exercise": "Burpees",
+        "duration": "3 set x 10 reps"
+      },
+      {
+        "exercise": "Daily Water Intake",
+        "duration": "2.5L per hari"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": "workout-obese-001",
+    "bmi_category": "Obese",
+    "bmi_range": ">= 30",
+    "plan": [
+      {
+        "exercise": "Stairmaster",
+        "duration": "30 Menit"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00",
+    "updated_at": "2025-11-12 10:53:44"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "workout-underweight-001",
+    "bmi_category": "Underweight",
+    "bmi_range": "< 18.5",
+    "plan": [
+      {
+        "exercise": "Strength Training - Compound Exercises 3x/week",
+        "equipment": "Dumbbells Set (5-20kg)",
+        "brand": "Bowflex / CAP Barbell"
+      },
+      {
+        "exercise": "Push-ups 3 sets x 10-15 reps",
+        "equipment": "Yoga Mat / Exercise Mat",
+        "brand": "Manduka / Liforme"
+      },
+      {
+        "exercise": "Squats with Weight 3 sets x 12-15 reps",
+        "equipment": "Dumbbells or Barbell",
+        "brand": "Rogue Fitness / Eleiko"
+      },
+      {
+        "exercise": "Pull-ups or Assisted Pull-ups 3 sets x 8-10 reps",
+        "equipment": "Pull-up Bar",
+        "brand": "Iron Gym / Perfect Fitness"
+      },
+      {
+        "exercise": "Protein Shake Post-Workout",
+        "equipment": "Whey Protein Powder",
+        "brand": "Optimum Nutrition / MyProtein"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": "workout-normal-001",
+    "bmi_category": "Normal",
+    "bmi_range": "18.5 - 24.9",
+    "plan": [
+      {
+        "exercise": "Cardio 30 minutes - Jogging/Cycling 3-4x/week",
+        "equipment": "Running Shoes or Bicycle",
+        "brand": "Nike / Adidas / Polygon"
+      },
+      {
+        "exercise": "Strength Training 2-3x/week",
+        "equipment": "Resistance Bands + Dumbbells",
+        "brand": "TRX / Bowflex"
+      },
+      {
+        "exercise": "Yoga or Stretching 2x/week",
+        "equipment": "Yoga Mat + Yoga Block",
+        "brand": "Manduka / Gaiam"
+      },
+      {
+        "exercise": "Plank 3 sets x 30-60 seconds",
+        "equipment": "Exercise Mat",
+        "brand": "Liforme / Lululemon"
+      },
+      {
+        "exercise": "Push-ups 3 sets x 15-20 reps",
+        "equipment": "No equipment / Push-up Bars",
+        "brand": "Perfect Fitness"
+      },
+      {
+        "exercise": "Lunges 3 sets x 12 reps per leg",
+        "equipment": "Dumbbells (optional)",
+        "brand": "CAP Barbell"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": "workout-overweight-001",
+    "bmi_category": "Overweight",
+    "bmi_range": "25 - 29.9",
+    "plan": [
+      {
+        "exercise": "Cardio 45-60 minutes - Brisk Walking/Cycling 5x/week",
+        "equipment": "Good Walking Shoes or Stationary Bike",
+        "brand": "New Balance / Skechers / Technogym"
+      },
+      {
+        "exercise": "HIIT Training 20-30 minutes 2-3x/week",
+        "equipment": "Interval Timer + Jump Rope",
+        "brand": "Gymboss / EliteSRS"
+      },
+      {
+        "exercise": "Strength Training with Moderate Weight 2x/week",
+        "equipment": "Adjustable Dumbbells",
+        "brand": "Bowflex SelectTech"
+      },
+      {
+        "exercise": "Jumping Jacks 3 sets x 20 reps",
+        "equipment": "Exercise Mat",
+        "brand": "Gaiam / Manduka"
+      },
+      {
+        "exercise": "Mountain Climbers 3 sets x 15 reps",
+        "equipment": "Exercise Mat",
+        "brand": "Liforme"
+      },
+      {
+        "exercise": "Burpees 3 sets x 10 reps",
+        "equipment": "No equipment needed",
+        "brand": "-"
+      },
+      {
+        "exercise": "Track Progress - Daily Water Intake 2.5L",
+        "equipment": "Water Bottle with Measurements",
+        "brand": "HydroFlask / CamelBak"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  },
+  {
+    "id": "workout-obese-001",
+    "bmi_category": "Obese",
+    "bmi_range": ">= 30",
+    "plan": [
+      {
+        "exercise": "Walking 30-45 minutes daily (low intensity, gradually increase)",
+        "equipment": "Supportive Walking Shoes with Cushioning",
+        "brand": "New Balance / Brooks / ASICS"
+      },
+      {
+        "exercise": "Swimming or Water Aerobics 3x/week",
+        "equipment": "Swimming Suit + Goggles",
+        "brand": "Speedo / Arena"
+      },
+      {
+        "exercise": "Chair Exercises - Seated Leg Lifts 3 sets x 10 reps",
+        "equipment": "Sturdy Chair",
+        "brand": "-"
+      },
+      {
+        "exercise": "Wall Push-ups 3 sets x 8-10 reps",
+        "equipment": "Wall space",
+        "brand": "-"
+      },
+      {
+        "exercise": "Seated Arm Circles 2 minutes",
+        "equipment": "Light Resistance Bands",
+        "brand": "TheraBand"
+      },
+      {
+        "exercise": "Gentle Stretching 10 minutes daily",
+        "equipment": "Yoga Mat / Stretching Strap",
+        "brand": "Gaiam / Manduka"
+      },
+      {
+        "exercise": "Nutrition Consultation (Highly Recommended)",
+        "equipment": "Consultation with Nutritionist",
+        "brand": "Professional Healthcare Provider"
+      },
+      {
+        "exercise": "Track Progress - Food Journal & Steps Counter",
+        "equipment": "Fitness Tracker / Smartwatch",
+        "brand": "Fitbit / Garmin / Apple Watch"
+      }
+    ],
+    "created_at": "2025-11-10 10:00:00"
+  }
+]
