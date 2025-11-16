@@ -4,27 +4,22 @@
     "skin_type": "Oily",
     "routine": [
       {
-        "step": "Cleanser",
         "product": "Oil-Free Gel Cleanser",
         "brand": "Cetaphil / La Roche-Posay"
       },
       {
-        "step": "Toner",
         "product": "Witch Hazel Toner",
         "brand": "Thayers / Some By Mi"
       },
       {
-        "step": "Serum",
         "product": "Niacinamide 10% + Zinc 1%",
         "brand": "The Ordinary / Somethinc"
       },
       {
-        "step": "Moisturizer",
         "product": "Oil-Free Hydrating Gel",
         "brand": "Neutrogena / Wardah"
       },
       {
-        "step": "Sunscreen",
         "product": "Oil Control UV Milk SPF 50",
         "brand": "Biore / Skin Aqua"
       }
@@ -36,32 +31,26 @@
     "skin_type": "Dry",
     "routine": [
       {
-        "step": "Cleanser",
         "product": "Creamy Hydrating Cleanser",
         "brand": "Cetaphil / CeraVe"
       },
       {
-        "step": "Toner",
         "product": "Hyaluronic Acid Hydrating Toner",
         "brand": "Hada Labo / Cosrx"
       },
       {
-        "step": "Serum",
         "product": "Vitamin E + Hyaluronic Acid Serum",
         "brand": "The Body Shop / Avoskin"
       },
       {
-        "step": "Moisturizer",
         "product": "Rich Hydrating Cream",
         "brand": "CeraVe / Physiogel"
       },
       {
-        "step": "Face Oil",
         "product": "Squalane 100% Oil",
         "brand": "The Ordinary / Jojoba Oil"
       },
       {
-        "step": "Sunscreen",
         "product": "Moisturizing UV Protection SPF 50",
         "brand": "La Roche-Posay / Wardah"
       }
@@ -73,32 +62,26 @@
     "skin_type": "Combination",
     "routine": [
       {
-        "step": "Cleanser",
         "product": "Gentle Foaming Cleanser",
         "brand": "Cetaphil / Simple"
       },
       {
-        "step": "Toner",
         "product": "Balancing pH Toner",
         "brand": "Innisfree / Pixi"
       },
       {
-        "step": "Serum",
         "product": "Niacinamide Serum",
         "brand": "The Ordinary / Somethinc"
       },
       {
-        "step": "Moisturizer T-Zone",
-        "product": "Lightweight Gel Moisturizer",
+        "product": "Lightweight Gel Moisturizer (T-Zone)",
         "brand": "Neutrogena / Emina"
       },
       {
-        "step": "Moisturizer Cheeks",
-        "product": "Hydrating Cream",
+        "product": "Hydrating Cream (Cheeks)",
         "brand": "CeraVe / Wardah"
       },
       {
-        "step": "Sunscreen",
         "product": "Lightweight UV Protection SPF 40",
         "brand": "Skin Aqua / Biore"
       }
@@ -110,27 +93,22 @@
     "skin_type": "Sensitive",
     "routine": [
       {
-        "step": "Cleanser",
         "product": "Gentle Fragrance-Free Cleanser",
         "brand": "Cetaphil / Avene"
       },
       {
-        "step": "Toner",
         "product": "Centella Asiatica Calming Toner",
         "brand": "Cosrx / Skintific"
       },
       {
-        "step": "Serum",
         "product": "Panthenol + Ceramide Serum",
         "brand": "Purito / Azarine"
       },
       {
-        "step": "Moisturizer",
         "product": "Fragrance-Free Hypoallergenic Cream",
         "brand": "CeraVe / Physiogel"
       },
       {
-        "step": "Sunscreen",
         "product": "Mineral/Physical Sunscreen SPF 50",
         "brand": "La Roche-Posay / Avene"
       }
@@ -142,32 +120,26 @@
     "skin_type": "Normal",
     "routine": [
       {
-        "step": "Cleanser",
         "product": "Gentle Daily Cleanser",
         "brand": "Cetaphil / Simple"
       },
       {
-        "step": "Toner",
         "product": "Balancing Hydrating Toner",
         "brand": "Hada Labo / Pixi"
       },
       {
-        "step": "Serum (Morning)",
-        "product": "Vitamin C Serum",
+        "product": "Vitamin C Serum (Morning)",
         "brand": "The Ordinary / Somethinc"
       },
       {
-        "step": "Serum (Night)",
-        "product": "Retinol 0.5% Serum",
+        "product": "Retinol 0.5% Serum (Night)",
         "brand": "The Ordinary / Avoskin"
       },
       {
-        "step": "Moisturizer",
         "product": "Balanced Daily Moisturizer",
         "brand": "CeraVe / Wardah"
       },
       {
-        "step": "Sunscreen",
         "product": "Broad Spectrum SPF 30",
         "brand": "Biore / Skin Aqua"
       }

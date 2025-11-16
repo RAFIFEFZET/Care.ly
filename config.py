@@ -1,12 +1,12 @@
 """
-Configuration file untuk GlowUp Gang
+Configuration file untuk Care.ly
 Berisi constants dan settings
 """
 
 # File Paths
-SKINCARE_FILE = "glowup_skincare.json"
-WORKOUT_FILE = "glowup_workouts.json"
-PDF_OUTPUT_DIR = "glowup_pdfs"
+SKINCARE_FILE = "data/skincare.json"
+WORKOUT_FILE = "data/workouts.json"
+PDF_OUTPUT_DIR = "output_pdfs"
 
 # Admin Credentials (Hardcoded)
 ADMIN_USERNAME = "admin"

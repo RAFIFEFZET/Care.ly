@@ -1,5 +1,5 @@
 """
-Admin functions untuk GlowUp Gang - OPTIMIZED VERSION
+Admin functions untuk Care.ly - OPTIMIZED VERSION
 Berisi semua CRUD operations untuk skincare dan workout
 """
 
@@ -10,7 +10,7 @@ def admin_login():
     """Admin login"""
     clear_screen()
     print("=" * 50)
-    print("ADMIN LOGIN - GLOWUP GANG")
+    print("ADMIN LOGIN - CARE.LY")
     print("=" * 50)
     
     username = input("\nUsername: ").strip()
@@ -39,8 +39,8 @@ def display_items(items, item_type):
         if item_type == "skincare":
             print(f"\n{idx}. Tipe Kulit: {item['skin_type']}")
             print("   Routine:")
-            for step in item['routine']:
-                print(f"   - {step['step']}: {step.get('product', '-')} ({step.get('brand', '-')})")
+            for routine_item in item['routine']:
+                print(f"   - {routine_item.get('product', '-')} | {routine_item.get('brand', '-')}")
         else:  # workout
             print(f"\n{idx}. Kategori: {item['bmi_category']} ({item['bmi_range']})")
             print("   Workout Plan:")
@@ -65,17 +65,23 @@ def input_routine_items(item_type):
     num = 1
     
     if item_type == "skincare":
-        print("\nFormat: [Step] [Produk] [Brand]")
-        print("Contoh: Cleanser | Gentle Foam | Cetaphil")
+        print("\nFormat: [Produk] | [Brand]")
+        print("Contoh: Gentle Daily Cleanser | Cetaphil")
         while True:
-            print(f"\n--- Step {num} ---")
-            step = input("Step (atau 'selesai'): ").strip()
-            if step.lower() == 'selesai':
+            print(f"\n--- Item {num} ---")
+            input_text = input("Produk | Brand (atau 'selesai'): ").strip()
+            if input_text.lower() == 'selesai':
                 break
-            if step:
-                product = input("Produk: ").strip()
+            
+            if '|' in input_text:
+                parts = input_text.split('|', 1)
+                product, brand = parts[0].strip(), parts[1].strip()
+            else:
+                product = input_text
                 brand = input("Brand: ").strip()
-                items.append({"step": step, "product": product or "-", "brand": brand or "-"})
+            
+            if product:
+                items.append({"product": product, "brand": brand or "-"})
                 num += 1
     else:  # workout
         print("\nFormat: [Exercise] | [Duration]")
@@ -221,7 +227,7 @@ def crud_edit(file, item_type):
         key = 'routine' if item_type == "skincare" else 'plan'
         for idx, item in enumerate(selected[key], 1):
             if item_type == "skincare":
-                print(f"{idx}. {item['step']}: {item.get('product')} ({item.get('brand')})")
+                print(f"{idx}. {item.get('product')} | {item.get('brand')}")
             else:
                 print(f"{idx}. {item['exercise']} | {item['duration']}")
         

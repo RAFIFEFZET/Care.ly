@@ -1,5 +1,5 @@
 """
-PDF Generator untuk GlowUp Gang
+PDF Generator untuk Care.ly
 Berisi functions untuk generate PDF skincare dan workout
 """
 
@@ -33,7 +33,7 @@ def generate_skincare_pdf(skin_type, routine_data):
         spaceAfter=30,
         alignment=TA_CENTER
     )
-    title = Paragraph("<b>GLOWUP FACIAL - SKINCARE ROUTINE</b>", title_style)
+    title = Paragraph("<b>CARE.LY FACIAL - SKINCARE ROUTINE</b>", title_style)
     story.append(title)
     
     # Subtitle
@@ -57,19 +57,18 @@ def generate_skincare_pdf(skin_type, routine_data):
         leading=12
     )
     
-    # Table data dengan Paragraph untuk wrapping
-    data = [['No', 'Step', 'Produk', 'Brand Rekomendasi']]
+    # Table data dengan Paragraph untuk wrapping - SIMPLIFIED (No Step)
+    data = [['No', 'Produk', 'Brand Rekomendasi']]
     
     for idx, item in enumerate(routine_data, 1):
         data.append([
             Paragraph(str(idx), cell_style),
-            Paragraph(item['step'], cell_style),
             Paragraph(item.get('product', '-'), cell_style),
             Paragraph(item.get('brand', '-'), cell_style)
         ])
     
-    # Create table
-    table = Table(data, colWidths=[0.5*inch, 1.8*inch, 2.2*inch, 2*inch])
+    # Create table - SIMPLIFIED 3 columns
+    table = Table(data, colWidths=[0.5*inch, 3.5*inch, 2.5*inch])
     table.setStyle(TableStyle([
         ('BACKGROUND', (0, 0), (-1, 0), colors.HexColor(COLOR_SKINCARE)),
         ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
@@ -98,7 +97,7 @@ def generate_skincare_pdf(skin_type, routine_data):
     )
     footer = Paragraph(
         f"Generated on {datetime.now().strftime('%d %B %Y, %H:%M')}<br/>"
-        "GlowUp Gang - Stay Beautiful! ✨", 
+        "Care.ly - Stay Beautiful! ✨", 
         footer_style
     )
     story.append(footer)
@@ -126,7 +125,7 @@ def generate_workout_pdf(bmi, bmi_category, weight, height, workout_data):
         spaceAfter=30,
         alignment=TA_CENTER
     )
-    title = Paragraph("<b>GLOWUP BADAN - WORKOUT PLAN</b>", title_style)
+    title = Paragraph("<b>CARE.LY BODY - WORKOUT PLAN</b>", title_style)
     story.append(title)
     
     # BMI Info
@@ -204,7 +203,7 @@ def generate_workout_pdf(bmi, bmi_category, weight, height, workout_data):
     )
     footer = Paragraph(
         f"Generated on {datetime.now().strftime('%d %B %Y, %H:%M')}<br/>"
-        "GlowUp Gang - Stay Healthy! 💪", 
+        "Care.ly - Stay Healthy! 💪", 
         footer_style
     )
     story.append(footer)

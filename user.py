@@ -1,6 +1,6 @@
 """
-User functions untuk GlowUp Gang
-Berisi fitur Facial GlowUp dan Body GlowUp dengan PDF output
+User functions untuk Care.ly
+Berisi fitur Facial Care dan Body Care dengan PDF output
 """
 
 from helpers import *
@@ -8,10 +8,10 @@ from config import *
 from pdf_generator import *
 
 def user_facial_glowup():
-    """Facial GlowUp - Generate skincare PDF"""
+    """Facial Care - Generate skincare PDF"""
     clear_screen()
     print("=" * 50)
-    print("FACIAL GLOWUP - SKINCARE RECOMMENDATION")
+    print("FACIAL CARE - SKINCARE RECOMMENDATION")
     print("=" * 50)
     
     print("\nTipe Kulit:")
@@ -56,10 +56,10 @@ def user_facial_glowup():
     pause()
 
 def user_body_glowup():
-    """Body GlowUp - Generate workout PDF based on BMI"""
+    """Body Care - Generate workout PDF based on BMI"""
     clear_screen()
     print("=" * 50)
-    print("BODY GLOWUP - WORKOUT RECOMMENDATION")
+    print("BODY CARE - WORKOUT RECOMMENDATION")
     print("=" * 50)
     
     # Input data
@@ -117,10 +117,10 @@ def user_menu():
     while True:
         clear_screen()
         print("=" * 50)
-        print("GLOWUP GANG - USER MENU")
+        print("CARE.LY - USER MENU")
         print("=" * 50)
-        print("1. Facial GlowUp (Skincare)")
-        print("2. Body GlowUp (Workout)")
+        print("1. Facial Care (Skincare)")
+        print("2. Body Care (Workout)")
         print("0. Kembali")
         
         choice = input("\nPilih (0-2): ").strip()
