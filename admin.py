@@ -1,5 +1,5 @@
 """
-Admin functions untuk Care.ly - OPTIMIZED VERSION
+Admin functions untuk Care.ly
 Berisi semua CRUD operations untuk skincare dan workout
 """
 

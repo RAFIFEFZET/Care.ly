@@ -10,7 +10,6 @@ Modules:
 - user.py: User features (Facial & Body Care)
 - main.py: Entry point aplikasi
 
-Author: Muhammad Rafif Fawwaz
 """
 
 from helpers import clear_screen, pause
