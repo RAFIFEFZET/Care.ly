@@ -1,11 +1,8 @@
 """
-Care.ly v2.1 - Healthcare & Fitness Recommendation System
-Aplikasi CLI untuk rekomendasi skincare dan workout dengan output PDF
-
 Modules:
 - config.py: Konstanta dan konfigurasi
 - helpers.py: Fungsi utilitas
-- pdf_generator.py: Generate PDF dengan text wrapping
+- pdf_generator.py: Generate PDF
 - admin.py: Admin CRUD operations
 - user.py: User features (Facial & Body Care)
 - main.py: Entry point aplikasi
