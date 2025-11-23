@@ -96,16 +96,15 @@
     "created_at": "2025-11-10 10:00:00"
   },
   {
-    "id": "workout-obese-001",
+    "id": "4861f3ab-568c-4996-9da1-215a504c90f6",
     "bmi_category": "Obese",
-    "bmi_range": ">= 30",
     "plan": [
       {
         "exercise": "Stairmaster",
         "duration": "30 Menit"
       }
     ],
-    "created_at": "2025-11-10 10:00:00",
-    "updated_at": "2025-11-12 10:53:44"
+    "created_at": "2025-11-22 11:14:00",
+    "bmi_range": ">= 30"
   }
 ]

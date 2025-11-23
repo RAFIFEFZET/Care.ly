@@ -2,11 +2,15 @@
 Configuration file untuk Care.ly
 Berisi constants dan settings
 """
+import os
 
-# File Paths
-SKINCARE_FILE = "data/skincare.json"
-WORKOUT_FILE = "data/workouts.json"
-PDF_OUTPUT_DIR = "output_pdfs"
+# Get base directory
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# File Paths - Using absolute paths
+SKINCARE_FILE = os.path.join(BASE_DIR, "data", "skincare.json")
+WORKOUT_FILE = os.path.join(BASE_DIR, "data", "workouts.json")
+PDF_OUTPUT_DIR = os.path.join(BASE_DIR, "output_pdfs")
 
 # Admin Credentials (Hardcoded)
 ADMIN_USERNAME = "admin"
